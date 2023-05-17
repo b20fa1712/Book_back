@@ -1,0 +1,52 @@
+What is Middleware (20)
+
+POST дээр өгөгдөл хүлээж авах server дээр body parser ашигласан (27)
+MongoDB quary хичээл-36
+category устгах мөн түүнд хамаарах номнуудыг хамтад нь (45)
+aggregate funsion use select group (48)
+(asuudl)
+mni book delete ajlahgv bn (category ustgj bolj bga nom ustgaj bolhgv bn mun catecory ustghad dawhar nomnuud n usthgv bn)
+Deerh asuudlig Model dotor catecory deer hiigdlee
+
+Zurag Upload hiih (50)
+
+asuudal bol bidni cuhal bagsh yma ....
+
+login hiihed token hadgalgdhgv bn shiidel - ( 
+    //post mani TESTS hesegt (pm.environment.set('TOKEN', pm.response.json().token)) ene codig oruulagv bn)
+
+
+Хичээл - 75 
+Model oos shuud data baaz deer table vvsgh npm install sequelize
+
+Хичээл - 76
+DataBase ees herhen rest api ruuga oruulah  npm install -g sequelize-auto doln npm install -g mysql
+hiih draalal
+sequelize-auto -h localhost -d product -u root -p 3306 --dialect mariadb -c sequelize-auto-setting.json -o DBproduct
+
+
+
+mongoDB ==> mongoose
+MySQL ==> sequelize
+
+Хичээл (83)
+
+sequelize magic methots ashigln databaseiin table holboosiig harj bgaad automataar controller vvsgek ugnu
+
+
+Хичээл (84)
+
+comment control deer Mysql deer user boln books harah controller oo hiile
+
+Хичээл (85) - sequelize ийн getter setter methots bolon virtaul talbar oruulah
+
+mnii bvh nom hargdhgv bn!!!!!
+
+Хичээл (96) 
+Cookie hiih ba hiih Middleware install hiine (npm install cookie-parser)
+
+
+
+Хичээл (99)
+
+hamgaalalttai holbootai hackeruudas sergiilj (npm install express-mongo-sanitize) -- iig suulgj middleware dotrh ($ { }) iimerhvv haldlagiig clear hiine

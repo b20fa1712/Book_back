@@ -1,0 +1,38 @@
+{
+  "name": "amazonapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "express-fileupload": "^1.4.0",
+    "express-http-proxy": "^1.6.3",
+    "express-mongo-sanitize": "^2.2.0",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "node-cache": "^5.1.2",
+    "nodemailer": "^6.7.7",
+    "nodemon": "^2.0.19",
+    "request": "^2.88.2",
+    "rotating-file-stream": "^3.0.4",
+    "sequelize": "^6.21.3",
+    "transliteration": "^2.3.5"
+  }
+}
