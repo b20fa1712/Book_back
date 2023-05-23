@@ -13,6 +13,9 @@ const {
   login,
   logout,
 } = require("../controller/user");
+// const LOGfun = () => {
+//   console.log("jwt_secret", process.env.JWT_SECRET);
+// };
 
 router.route("/logout").get(logout);
 router.route("/register").post(register);
