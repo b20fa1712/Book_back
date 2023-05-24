@@ -121,3 +121,4 @@
 ::1 - - [23/May/2023:05:04:46 +0000] "GET /api/v1/users HTTP/1.1" 500 358 "-" "PostmanRuntime/7.32.2"
 ::1 - - [24/May/2023:04:27:16 +0000] "GET /api/v1/books HTTP/1.1" 200 5263 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
 ::1 - - [24/May/2023:04:40:48 +0000] "GET /api/v1/users HTTP/1.1" 200 1435 "-" "PostmanRuntime/7.32.2"
+::1 - - [24/May/2023:04:48:00 +0000] "GET /api/v1/books HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"

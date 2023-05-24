@@ -1,10 +1,13 @@
 const mongoose = require("mongoose");
 
 const connectDB = async () => {
-  const conn = await mongoose.connect(process.env.MONGODB_URI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  });
+  const conn = await mongoose.connect(
+    "mongodb+srv://Mygmarsaikhan:MC2002MCc!@cluster0.7ox6oem.mongodb.net/test",
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    }
+  );
   console.log(`MongoDB холбогдлоо: ${conn.connection.host}`);
 };
 
